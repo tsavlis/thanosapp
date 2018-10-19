@@ -68,7 +68,7 @@ class SectionLogin extends React.Component {
                       </Button>
                     </div>
                   </CardHeader>
-                  <p className={classes.divider}>Or Be Classical</p>
+                  <p className={classes.divider}>Welcome</p>
                   <CardBody>
                     <CustomInput
                       labelText="First Name..."

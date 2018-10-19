@@ -47,7 +47,7 @@ class LoginPage extends React.Component {
         <Header
           absolute
           color="transparent"
-          brand="Material Kit React"
+          brand="Mykonos Pearls React"
           rightLinks={<HeaderLinks />}
           {...rest}
         />
@@ -96,7 +96,7 @@ class LoginPage extends React.Component {
                         </Button>
                       </div>
                     </CardHeader>
-                    <p className={classes.divider}>Or Be Classical</p>
+                    <p className={classes.divider}>Welcome</p>
                     <CardBody>
                       <CustomInput
                         labelText="First Name..."

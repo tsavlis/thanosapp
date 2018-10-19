@@ -25,34 +25,74 @@ function HeaderLinks({ ...props }) {
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
-          buttonText="Components"
+          buttonText="Services"
           buttonProps={{
             className: classes.navLink,
             color: "transparent"
           }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              All components
+              <Link to="/" className={classes.dropdownLink}>
+              Mykonospearls
             </Link>,
+            
             <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation"
+              href="https://www.mykonospearls.com/"
               target="_blank"
               className={classes.dropdownLink}
             >
-              Documentation
+              Home
             </a>
+            ,
+            <a
+              href="https://www.mykonospearls.com/collection"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              Collection
+            </a>
+             ,
+             <a
+               href="https://www.mykonospearls.com/services"
+               target="_blank"
+               className={classes.dropdownLink}
+             >
+               Services
+             </a> ,
+            <a
+              href="https://www.mykonospearls.com/about"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              About Us
+            </a> ,
+            <a
+              href="https://www.mykonospearls.com/#contact/contact_us"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              Contact
+            </a> ,
+            <a
+              href="https://www.mykonospearls.com/work-with-us"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              Work with us
+            </a>
+            
+            
           ]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/material-kit-react"
+          href="https://www.mykonospearls.com/"
           color="transparent"
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Download
+          <CloudDownload className={classes.icons} /> Booking
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -63,7 +103,7 @@ function HeaderLinks({ ...props }) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/CreativeTim"
+            href="https://twitter.com/MykonosPearls"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -81,7 +121,7 @@ function HeaderLinks({ ...props }) {
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/CreativeTim"
+            href="https://www.facebook.com/Mykonos-Pearls-141310106732866/"
             target="_blank"
             className={classes.navLink}
           >
@@ -98,7 +138,7 @@ function HeaderLinks({ ...props }) {
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial"
+            href="https://www.instagram.com/mykonospearls/"
             target="_blank"
             className={classes.navLink}
           >

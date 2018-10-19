@@ -11,8 +11,8 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import exampleStyle from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.jsx";
 
-import landing from "assets/img/landing.jpg";
-import profile from "assets/img/profile.jpg";
+import landing from "assets/img/paint1.jpg";
+import profile from "assets/img/paint2.jpg";
 
 class SectionExamples extends React.Component {
   render() {
@@ -53,7 +53,7 @@ class SectionExamples extends React.Component {
                   }
                 />
                 <Button color="primary" size="lg" simple>
-                  View profile page
+                  View Profile Page
                 </Button>
               </Link>
             </GridItem>

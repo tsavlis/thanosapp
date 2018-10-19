@@ -17,18 +17,18 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
-import profile from "assets/img/faces/christian.jpg";
+import profile from "assets/img/about.jpg";
 
-import studio1 from "assets/img/examples/studio-1.jpg";
-import studio2 from "assets/img/examples/studio-2.jpg";
-import studio3 from "assets/img/examples/studio-3.jpg";
-import studio4 from "assets/img/examples/studio-4.jpg";
-import studio5 from "assets/img/examples/studio-5.jpg";
-import work1 from "assets/img/examples/olu-eletu.jpg";
-import work2 from "assets/img/examples/clem-onojeghuo.jpg";
-import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-import work4 from "assets/img/examples/mariya-georgieva.jpg";
-import work5 from "assets/img/examples/clem-onojegaw.jpg";
+import studio1 from "assets/img/marianthi.jpg";
+import studio2 from "assets/img/lydia.jpg";
+import studio3 from "assets/img/marika.jpg";
+import studio4 from "assets/img/villa1.jpg";
+import studio5 from "assets/img/villa2.jpg";
+import work1 from "assets/img/villa3.jpg";
+import work2 from "assets/img/villa4.jpg";
+import work3 from "assets/img/villa5.jpg";
+import work4 from "assets/img/villa6.jpg";
+import work5 from "assets/img/villa7.jpg";
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
 
@@ -45,7 +45,7 @@ class ProfilePage extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="Material Kit React"
+          brand="Mykonos pearls React"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -65,27 +65,16 @@ class ProfilePage extends React.Component {
                       <img src={profile} alt="..." className={imageClasses} />
                     </div>
                     <div className={classes.name}>
-                      <h3 className={classes.title}>Christian Louboutin</h3>
-                      <h6>DESIGNER</h6>
-                      <Button justIcon link className={classes.margin5}>
-                        <i className={"fab fa-twitter"} />
-                      </Button>
-                      <Button justIcon link className={classes.margin5}>
-                        <i className={"fab fa-instagram"} />
-                      </Button>
-                      <Button justIcon link className={classes.margin5}>
-                        <i className={"fab fa-facebook"} />
-                      </Button>
+                      <h3 className={classes.title}>Some Info</h3>
                     </div>
                   </div>
                 </GridItem>
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  An artist of considerable range, Chet Faker — the name taken
-                  by Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                  performs and records all of his own music, giving it a warm,
-                  intimate feel with a solid groove structure.{" "}
+                We are a hospitality company with a unique hands-on approach and operations focus. We carefully select and exclusively manage all properties in our portfolio, an approach that allows us to offer a standardised high quality product that is competitively priced, and a superior level of service that exceeds the expectations of even the most demanding travellers.
+
+                Our guests, partners, property owners and staff are at the heart of all our actions. We constantly aim to exceed their expectations with great attention to detail, professionalism, fairness and a human touch.
                 </p>
               </div>
               <GridContainer justify="center">
@@ -95,7 +84,7 @@ class ProfilePage extends React.Component {
                     color="primary"
                     tabs={[
                       {
-                        tabButton: "Studio",
+                        tabButton: "Villas",
                         tabIcon: Camera,
                         tabContent: (
                           <GridContainer justify="center">
@@ -127,7 +116,7 @@ class ProfilePage extends React.Component {
                         )
                       },
                       {
-                        tabButton: "Work",
+                        tabButton: "Best Price",
                         tabIcon: Palette,
                         tabContent: (
                           <GridContainer justify="center">

@@ -5,7 +5,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 import Chat from "@material-ui/icons/Chat";
 import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
+import Home from "@material-ui/icons/Home";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
@@ -20,13 +20,10 @@ class ProductSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>Let's talk product</h2>
+            <h2 className={classes.title}>Let's talk business</h2>
             <h5 className={classes.description}>
-              This is the paragraph where you can write more details about your
-              product. Keep you user engaged by providing meaningful
-              information. Remember that by this time, the user is curious,
-              otherwise he wouldn't scroll to get here. Add a button if you want
-              the user to see more.
+              By using this site you have unique privilages like promotional codes that you can redeem for a 20% discount of the original price.
+              Also you can book a ride to your destination with our experienced and friendly drivers .
             </h5>
           </GridItem>
         </GridContainer>
@@ -35,7 +32,7 @@ class ProductSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                 title="Free Chat"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+                description="With our app you can chat with the clients and direct communicate without any delay.Available on both Android and IOs"
                 icon={Chat}
                 iconColor="info"
                 vertical
@@ -43,8 +40,8 @@ class ProductSection extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Verified Users"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+                title="Verified payment"
+                description="We ensure the enviroment for your deposition is safe and we also guarantee  a full recharge if for some reason there is any delay or problem with your reservation"
                 icon={VerifiedUser}
                 iconColor="success"
                 vertical
@@ -52,9 +49,9 @@ class ProductSection extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Fingerprint"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={Fingerprint}
+                title="Comfortable environment"
+                description="Our villas have been reviwed as the best accomodation in Greece for the years 2014-2018,Feel free to read some of our reviews"
+                icon={Home}
                 iconColor="danger"
                 vertical
               />
