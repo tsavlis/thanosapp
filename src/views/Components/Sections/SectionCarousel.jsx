@@ -10,9 +10,9 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Card from "components/Card/Card.jsx";
 import carouselStyle from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx";
-import image1 from "assets/img/marianthi.jpg";
-import image2 from "assets/img/lydia.jpg";
-import image3 from "assets/img/marika.jpg";
+import image1 from "assets/img/lydia.jpg";
+import image2 from "assets/img/villa3.jpg";
+import image3 from "assets/img/villa4.jpg";
 
 class SectionCarousel extends React.Component {
   render() {
@@ -40,7 +40,7 @@ class SectionCarousel extends React.Component {
                     />
                     <div className="slick-caption">
                       <h4>
-                        <LocationOn className="slick-icons" />Marianthi
+                        <LocationOn className="slick-icons" />Lydia
                       </h4>
                     </div>
                   </div>
@@ -52,7 +52,7 @@ class SectionCarousel extends React.Component {
                     />
                     <div className="slick-caption">
                       <h4>
-                        <LocationOn className="slick-icons" />Lydia
+                        <LocationOn className="slick-icons" />Marianthi
                       </h4>
                     </div>
                   </div>
