@@ -12,7 +12,7 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import SectionCarousel from "./Sections/SectionCarousel.jsx";
 import SectionLogin from "./Sections/SectionLogin.jsx";
 import SectionExamples from "./Sections/SectionExamples.jsx";
-
+import {Animated} from "react-animated-css";
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
 class Components extends React.Component {
@@ -36,16 +36,22 @@ class Components extends React.Component {
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
-                  <h1 className={classes.title}>Mykonos Pearls React.</h1>
+                  <h1 className={classes.title}>
+                  <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+        Mykonos Pearls 
+</Animated>
+                  </h1>
                   <h3 className={classes.subtitle}>
-                    A test site written in React
+                  <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
+        A Test App by thanos 
+</Animated>
                   </h3>
+                  
                 </div>
               </GridItem>
             </GridContainer>
           </div>
         </Parallax>
-
         <div className={classNames(classes.main, classes.mainRaised)}>
           <SectionCarousel />
           <SectionLogin />
