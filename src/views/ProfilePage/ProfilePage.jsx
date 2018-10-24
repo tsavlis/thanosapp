@@ -10,7 +10,6 @@ import Favorite from "@material-ui/icons/Favorite";
 // core components
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
-import Button from "components/CustomButtons/Button.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
@@ -18,7 +17,6 @@ import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
 import profile from "assets/img/about.jpg";
-
 import studio1 from "assets/img/marianthi.jpg";
 import studio2 from "assets/img/lydia.jpg";
 import studio3 from "assets/img/marika.jpg";
